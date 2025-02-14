@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import './Nav.jsx'
 import Film from './Film.jsx'
+import Com from './Com.jsx'
 import People from './People.jsx'
 import Nav from './Nav.jsx'
 import Bg from './assets/dunee.jpg'
@@ -31,15 +32,15 @@ function App() {
         {/* Content after the image */}
         <div className='flex items-center justify-between w-full p-8'>
           <div className=' pl-5'>
-          <h1 className='text-4xl font-secondary pt-5' >HETKI COMPANY /</h1>
-          <h1 className='text-4xl font-secondary ' >HETKI FILM COMPANY</h1>
+          <h1 className='text-4xl font-secondary pt-5' >HETKI COMPANY</h1>
+          {/* <h1 className='text-4xl font-secondary ' >HETKI FILM COMPANY</h1> */}
           </div>
           <div className='p-5 pt-5 flex space-x-6 font-fourth '>
           <h3 className='max-w-[400px] p-5 pt-10'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ultrices auctor risus, commodo lacinia odio laoreet sit amet. Interdum et malesuada fames ac ante ipsum primis in faucibus. Quisque fringilla erat id felis mattis, id vestibulum lorem maximus.</h3>
           <h3 className='max-w-[400px] p-5 pt-10'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ultrices auctor risus, commodo lacinia odio laoreet sit amet. Interdum et malesuada fames ac ante ipsum primis in faucibus. Quisque fringilla erat id felis mattis, id vestibulum lorem maximus.</h3>
           </div>
         </div> 
-            {/* Old image grid system!!!!*/}
+            {/* Old image grid system!!!!
         <div className="grid-container flex w-screen ">
         
               <img
@@ -58,7 +59,10 @@ function App() {
                 alt="image"
               />
         </div>
+        */}
         <Film/>
+        
+        <People/>
         
     
       </div>

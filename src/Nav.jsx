@@ -4,7 +4,7 @@ import Logo from './assets/logo.png'
 
 function Nav() {
   return (
-    <div className='flex items-center justify-between w-full '>
+    <div className='flex items-center justify-between w-full fixed'>
         <div className='flex justify-start w-64 h-auto pt-3 pl-5'>
                  <img src={Logo}
                  alt="Hetki logo"
@@ -21,7 +21,7 @@ function Nav() {
                 <a class='p-1 text-white hover:text-red-700 ransition-colors duration-300' href="">FILM</a>
             </li>
             <li class='hover:bg-white ransition-colors duration-300'>
-                <a class='p-1 text-white hover:text-red-700 ransition-colors duration-300' href="">COMMERCIAL</a>
+                <a class='p-1 text-white hover:text-red-700 ransition-colors duration-300' href="">CREATIVE</a>
             </li>
             <li class='hover:bg-white ransition-colors duration-300 '>
                 <a class='p-1  text-white hover:text-red-700 ransition-colors duration-300' href="">CONTACT</a>
