@@ -5,10 +5,10 @@ import Film from './Film.jsx'
 import Com from './Com.jsx'
 import People from './People.jsx'
 import Nav from './Nav.jsx'
+import Contact from './Contact.jsx'
 import Bg from './assets/dunee.jpg'
-import Black from './assets/black.jpg'
-import Blue from './assets/blue.jpg'
-import Green from './assets/green.jpg'
+import Black from './assets/.black.jpg.icloud'
+
 
 function App() {
   return (
@@ -30,7 +30,7 @@ function App() {
         </div>
 
         {/* Content after the image */}
-        <div className='flex items-center justify-between w-full p-8'>
+        <div className='flex items-center justify-between w-full pt-2 p-8'>
           <div className=' pl-5'>
           <h1 className='text-4xl font-secondary pt-5' >HETKI COMPANY</h1>
           {/* <h1 className='text-4xl font-secondary ' >HETKI FILM COMPANY</h1> */}
@@ -61,8 +61,10 @@ function App() {
         </div>
         */}
         <Film/>
+        <Com/>
         
         <People/>
+        <Contact/>
         
     
       </div>

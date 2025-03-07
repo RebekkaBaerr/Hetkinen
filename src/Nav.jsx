@@ -24,6 +24,9 @@ function Nav() {
                 <a class='p-1 text-white hover:text-red-700 ransition-colors duration-300' href="">CREATIVE</a>
             </li>
             <li class='hover:bg-white ransition-colors duration-300 '>
+                <a class='p-1  text-white hover:text-red-700 ransition-colors duration-300' href="">PEOPLE</a>
+            </li>
+            <li class='hover:bg-white ransition-colors duration-300 '>
                 <a class='p-1  text-white hover:text-red-700 ransition-colors duration-300' href="">CONTACT</a>
             </li>
 
